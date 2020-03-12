@@ -1,0 +1,103 @@
+.Card
+{
+    width: 200px;
+    height: 300px;
+    border-radius: 2px;
+    background-color:blue!important;
+}
+.navbar
+{
+    
+    height: 20vh!important;
+}
+.change
+{
+    text-align: center;
+    margin-top: 2rem;
+}
+.navbar-brand:hover
+{
+background-color: cadetblue!important;
+}
+h2{
+    text-align: center;
+    font-weight: 200;
+    margin-top: 4rem;
+}
+.container
+{
+    width: 90%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+.card{
+    margin-top: 2rem!important;
+}
+.card-img-top
+{
+    display: inline-block;
+    width: 100%!important;
+    height: 40%!important;
+}
+.carousel-inner
+{
+    margin-top: 4rem!important;
+    width: 60%!important;
+    margin: 0 auto !important;
+}
+.contenedor {
+    width: 95%;
+    max-width: 120rem; /** = 1200px; **/
+    margin: 0 auto;
+}
+.site-footer {
+    background-color: #333333;
+    margin: 0;
+}
+.contenedor-footer {
+    padding: 3rem 0;
+    text-align: center;
+}
+.navegacion a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 2.2rem;
+    display: block;
+}
+.seccion {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.copyright {
+    margin: 0;
+    color: #ffffff;
+}
+.navegacion {
+    display: none;
+}
+@media (min-width: 768px) {
+    .navegacion a {
+        display: inline-block;
+        font-size: 1.8rem; /** = 18px **/
+        margin-right: 2rem;
+    }
+    .navegacion a:last-of-type {
+        margin: 0;
+    }
+}
+@media (min-width: 768px) {
+    .navegacion {
+        display: block;
+    }
+}
+.navegacion:target {
+    display: block;
+}
+h1{
+    text-align: center;
+    font-weight: 200;
+    
+}
